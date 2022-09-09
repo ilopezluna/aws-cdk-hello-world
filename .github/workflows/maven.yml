@@ -26,3 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: aws cdk
       uses: ilopezluna/aws-cdk-action@v0.0.3-alpha
+      with:
+        command: 'synth'
