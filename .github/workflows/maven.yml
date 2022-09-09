@@ -25,4 +25,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: aws cdk
-      uses: ilopezluna/aws-cdk-action@v0.0.1-alpha
+      uses: ilopezluna/aws-cdk-action@v0.0.2-alpha
