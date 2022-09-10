@@ -22,9 +22,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
     - name: aws cdk
-      uses: ilopezluna/aws-cdk-action@v0.0.10-alpha
+      uses: ilopezluna/aws-cdk-action@v0.0.11-alpha
       with:
         command: 'synth'
