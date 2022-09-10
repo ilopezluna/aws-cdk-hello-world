@@ -23,6 +23,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: aws cdk
-      uses: ilopezluna/aws-cdk-action@v0.0.11-alpha
+      uses: ilopezluna/aws-cdk-action@v0.0.12-alpha
       with:
         command: 'synth'
